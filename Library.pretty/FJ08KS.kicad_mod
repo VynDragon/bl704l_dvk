@@ -1,0 +1,213 @@
+(footprint "FJ08KS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Joystick With button")
+	(tags "joystick")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ee92366b-d596-4c20-8f9b-b057f9cf9134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FJ08KS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da3ffa7c-e475-4b01-94ad-178a9cd70194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4de75492-7e5f-4565-847f-e2689d6f90dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce61b4b4-7a14-4d9f-bf1e-8cc00bddfe83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cfdc459-ca92-4a2f-8a46-2e95e8515a11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.75 -8.75)
+		(end 8.75 -8.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a79193cb-b1e0-4249-ad79-853873aac7ed")
+	)
+	(fp_line
+		(start -8.75 8.75)
+		(end -8.75 -8.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4f65142-dd0b-4d00-950a-4f5e757d9068")
+	)
+	(fp_line
+		(start -8.75 8.75)
+		(end 8.75 8.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9e0dde9-bf1e-47e5-9dba-cd241848a164")
+	)
+	(fp_line
+		(start 8.75 -8.75)
+		(end 8.75 8.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "458df9d4-9c5c-4c0a-9220-3950ddbffc4d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23113a2c-abd7-41bc-91b7-bca426cf9aa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -6 -6)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "68962db3-622b-4f31-97b9-5720a20fc1ba")
+	)
+	(pad "" np_thru_hole circle
+		(at 6 6)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "24e857ec-3727-45a5-aa42-9a8cb10711c3")
+	)
+	(pad "1" thru_hole circle
+		(at -2 -8.6)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fa3fb14-bd97-4b93-8576-901a919eba69")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -8.6)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a20b0e99-8ca6-4139-b284-53770ea08278")
+	)
+	(pad "3" thru_hole circle
+		(at 2 -8.6)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbac2bfe-10db-45d7-a4ca-48b0c929e0b1")
+	)
+	(pad "4" thru_hole circle
+		(at 6.6 -8)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5bb69302-82b6-4e82-84e4-abbaf3728bba")
+	)
+	(pad "5" thru_hole circle
+		(at 8 -6.6)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "838104e8-7cd5-4d9c-ab5c-98379bc77793")
+	)
+	(pad "6" thru_hole circle
+		(at 8.6 -2)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81f0cd56-423a-4698-939b-a3a78600aa5e")
+	)
+	(pad "7" thru_hole circle
+		(at 8.6 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c72df595-d32a-4b3c-88b7-c23b8535dd38")
+	)
+	(pad "8" thru_hole circle
+		(at 8.6 2)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ec70fef-275e-411e-a59a-3132467aacc3")
+	)
+	(model "/home/vdragon/elec/Library.pretty/FJ08K-S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

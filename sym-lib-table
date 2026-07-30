@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BouffaloLab") (type "KiCad") (uri "/home/vdragon/elec/BouffaloLab.kicad_sym") (options "") (descr ""))
+)
